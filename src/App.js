@@ -5,14 +5,12 @@ import "../src/styles/App.css"
 // Componentes
 import Login from "./components/Login";
 import Register from "./components/Register";
-import Form from "./components/Form";
 import AssessmentForm from './components/assessment/AssessmentForm';
 
 // Páginas
 import Home from "./pages/Home";
-import Results from "./pages/Results";
 import NotFound from "./pages/NotFound";
-import Dashboard from "./pages/Dashboard";
+
 
 // Layout
 import Layout from "./components/common/Layout";
