@@ -27,22 +27,6 @@ function App() {
 
         {/* Rotas protegidas (com layout) */}
         <Route
-          path="/form"
-          element={
-            <Layout>
-              <Form />
-            </Layout>
-          }
-        />
-        <Route
-          path="/results"
-          element={
-            <Layout>
-              <Results />
-            </Layout>
-          }
-        />
-        <Route
           path="/"
           element={
             <Layout>
@@ -55,14 +39,6 @@ function App() {
           element={
             <Layout>
               <AssessmentForm />
-            </Layout>
-          }
-        />
-        <Route
-          path="/Dashboard"
-          element={
-            <Layout>
-              <Dashboard />
             </Layout>
           }
         />
