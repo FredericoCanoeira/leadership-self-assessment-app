@@ -1,12 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "../src/styles/App.css"
+import "../src/styles/App.css";
 
 // Componentes
 import Login from "./components/Login";
 import Register from "./components/Register";
 import AssessmentForm from './components/assessment/AssessmentForm';
-
+import PaymentInformation from "./pages//PaymentInformation";
+import Solicitacao from './pages/Solicitacao';
 // Páginas
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
@@ -40,6 +41,8 @@ function App() {
             </Layout>
           }
         />
+        <Route path="/PaymentInformation" element={<PaymentInformation />} />
+        <Route path="/Solicitacao" element={<Solicitacao />} />
         {/* Página 404 */}
         <Route path="*" element={<NotFound />} />
       </Routes>
